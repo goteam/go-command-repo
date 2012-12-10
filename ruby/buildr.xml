@@ -1,0 +1,5 @@
+<exec command="buildr">
+    <arg>-v</arg>
+    <arg>clean</arg>
+    <arg>build</arg>
+</exec>
