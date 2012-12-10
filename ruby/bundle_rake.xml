@@ -1,0 +1,5 @@
+<exec command="bundle"> 
+	<arg>exec</arg> 
+	<arg>rake</arg> 
+	<arg>db:migrate</arg> 
+</exec> 

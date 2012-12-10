@@ -1,0 +1,14 @@
+<!--
+name: nuget_publish
+author: Mark Richter
+description: Publish a NuGet package
+moreinfo: http://lyricsoft.blogspot.in/2012/10/how-to-build-and-publish-to-nuget-using.html
+keywords: nuget, publish, push, package
+-->
+<exec command="nuget">
+<arg>push</arg>
+<arg>component.1.5.%GO_PIPELINE_COUNTER%.nupkg</arg>
+<arg>%NUGETAPIKEY%</arg>
+<arg>-Timeout</arg>
+<arg>60</arg>
+</exec>

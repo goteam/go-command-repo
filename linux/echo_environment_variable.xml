@@ -1,0 +1,12 @@
+<!--
+name: 
+description: Simple maven task.
+author: Go Team
+platform: Linux, Windows
+moreinfo: http://community.thoughtworks.com/comment/4396
+keywords: mvn, maven, build
+-->
+<exec command="/bin/bash">
+<arg>-c</arg>
+<arg>'echo ${GO_PIPELINE_LABEL}'</arg>
+</exec>

@@ -1,0 +1,13 @@
+<!--
+name: msbuild command line
+description: build system for Visual Studio
+author: Go Team
+platform: windows
+moreinfo: http://lyricsoft.blogspot.in/2012/08/we-are-often-asked-about-using.html
+keywords: msbuild, nant, build
+-->
+<exec command="MsBuild">
+  <arg>D:\path\to\project.sln</arg>
+  <arg>/REBUILD</arg>
+  <arg>/CFG="Release_99|Win32"</arg>
+</exec>

@@ -1,0 +1,14 @@
+<!--
+name: echo_windows
+description: echo on windows
+author: Go Team
+platform: windows
+moreinfo: http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/echo.mspx?mfr=true
+keywords: echo
+-->
+<exec command="cmd">
+  <!--/c makes cmd exit after one command.-->
+  <arg>/c</arg>
+  <arg>echo</arg>
+  <arg>hello ${GO_PIPELINE_LABEL}</arg>
+</exec>

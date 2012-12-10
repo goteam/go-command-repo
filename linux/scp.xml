@@ -1,0 +1,12 @@
+<!--
+name: scp
+description: secure file copy assuming automatic ssh public key authentication
+author: Go Team
+platform: Linux
+moreinfo: http://www.hypexr.org/linux_scp_help.php
+keywords: scp, cp, copy, ftp
+-->
+<exec command="/bin/bash">
+    <arg>-c</arg>
+    <arg>scp -o StrictHostKeyChecking=no source-file user@dest-server:/dest-directory</arg>
+</exec>

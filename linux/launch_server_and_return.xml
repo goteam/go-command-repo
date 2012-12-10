@@ -1,0 +1,12 @@
+<!--
+name: launch_server_and_return
+description: launch a server from a Go Task and return (assuming automatic ssh public key authentication)
+author: Go Team
+platform: Linux
+keywords: background, nohup, server
+moreinfo: http://superuser.com/questions/449193/nohup-over-ssh-wont-return
+-->
+<exec command="/bin/bash">
+    <arg>-c</arg>
+    <arg>ssh -o StrictHostKeyChecking=no localhost 'nohup server.sh >/path/to/server.log 2>&amp;1 &amp;'</arg>
+</exec>
