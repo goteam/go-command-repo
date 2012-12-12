@@ -1,0 +1,14 @@
+<!--
+name: curl
+description: curl upload
+author: Go Team
+platform: unix
+keywords: curl
+-->
+<exec command="curl">
+<arg>-u</arg>
+<arg>user:password</arg>
+<arg>http://uploadurl</arg>
+<arg>-T</arg>
+<arg>/path/to/fileToUpload</arg>
+</exec>

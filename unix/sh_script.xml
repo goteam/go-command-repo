@@ -1,0 +1,10 @@
+<!--
+name: sh script
+description: sh script
+author: Go Team
+platform: unix
+keywords: sh script
+-->
+<exec command="/bin/sh">
+<arg>/path/to/script.sh</arg>
+</exec>

@@ -1,0 +1,12 @@
+<!--
+name: curl
+description: curl
+author: Go Team
+platform: unix
+keywords: curl
+-->
+<exec command="curl">
+<arg>-u</arg>
+<arg>user:password</arg>
+<arg>http://targeturl</arg>
+</exec>
