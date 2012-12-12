@@ -2,7 +2,7 @@
 name: scp
 description: secure file copy assuming automatic ssh public key authentication
 author: Go Team
-platform: Linux
+platform: unix
 moreinfo: http://www.hypexr.org/linux_scp_help.php
 keywords: scp, cp, copy, ftp
 -->

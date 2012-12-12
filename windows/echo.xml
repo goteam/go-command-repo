@@ -1,6 +1,6 @@
 <!--
 name: echo_windows
-description: echo on windows
+description: echo system environment variable (USERNAME), Go environment variable (GO_PIPELINE_LABEL), MY_PIPELINE_PARAMETER
 author: Go Team
 platform: windows
 moreinfo: http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/echo.mspx?mfr=true
@@ -10,5 +10,5 @@ keywords: echo
   <!--/c makes cmd exit after one command.-->
   <arg>/c</arg>
   <arg>echo</arg>
-  <arg>hello ${GO_PIPELINE_LABEL}</arg>
+  <arg>hello %USERNAME% ${GO_PIPELINE_LABEL} #{MY_PIPELINE_PARAMETER}</arg>
 </exec>

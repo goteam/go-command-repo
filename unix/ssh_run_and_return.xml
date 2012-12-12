@@ -2,7 +2,7 @@
 name: ssh
 description: ssh to a node assuming automatic ssh public key authentication, run a command or two and return
 author: Go Team
-platform: Linux
+platform: unix
 keywords: ssh
 -->
 <exec command="/bin/bash">

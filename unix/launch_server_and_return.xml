@@ -2,7 +2,7 @@
 name: launch_server_and_return
 description: launch a server from a Go Task and return (assuming automatic ssh public key authentication)
 author: Go Team
-platform: Linux
+platform: unix
 keywords: background, nohup, server
 moreinfo: http://superuser.com/questions/449193/nohup-over-ssh-wont-return
 -->
