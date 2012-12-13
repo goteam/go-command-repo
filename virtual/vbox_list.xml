@@ -1,0 +1,8 @@
+<!--
+description: echo detailed info of all virutal machines on a remote-node
+moreinfo: http://www.virtualbox.org/manual/ch08.html
+-->
+<exec command="/bin/bash">
+    <arg>-c</arg>
+    <arg>ssh -o StrictHostKeyChecking=no remote-node 'VBoxManage list -l vms'</arg>
+</exec>

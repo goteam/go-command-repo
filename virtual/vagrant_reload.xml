@@ -1,0 +1,8 @@
+<!--
+description: ssh from go-agent to remote node and reload a vm
+moreinfo: http://vagrantup.com/v1/docs/index.html
+-->
+<exec command="/bin/bash">
+    <arg>-c</arg>
+    <arg>ssh -o StrictHostKeyChecking=no remote-node 'cd /to/vagrant/dir;vagrant reload vm-name'</arg>
+</exec>

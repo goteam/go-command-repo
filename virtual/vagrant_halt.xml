@@ -1,0 +1,8 @@
+<!--
+description: description: ssh from go-agent to remote node and halt up a vm
+moreinfo: http://vagrantup.com/v1/docs/index.html
+-->
+<exec command="/bin/bash">
+    <arg>-c</arg>
+    <arg>ssh -o StrictHostKeyChecking=no remote-node 'cd /to/vagrant/dir;vagrant halt vm-name'</arg>
+</exec>
