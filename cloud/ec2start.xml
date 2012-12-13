@@ -1,0 +1,10 @@
+<!--
+description: Starts an ec2 instance as defined in the instance_id pipeline parameter
+moreinfo: http://docs.amazonwebservices.com/AWSEC2/latest/CommandLineReference/ApiReference-cmd-StartInstances.html
+-->
+<exec command="ec2start">
+<arg>--batch</arg>
+<arg>-v</arg>
+<arg>-H</arg>
+<arg>#{instance_id}</arg>
+</exec>

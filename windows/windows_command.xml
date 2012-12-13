@@ -1,0 +1,4 @@
+<exec command="cmd">
+	<arg>/c</arg>
+	<arg>set</arg>
+</exec>

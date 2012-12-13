@@ -1,0 +1,4 @@
+<exec command="gradle">
+    <arg>--profile</arg>
+    <arg>dist</arg>
+</exec>
