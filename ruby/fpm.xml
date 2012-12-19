@@ -1,0 +1,21 @@
+<!--
+name: fpm-create-rpm-from-dir
+description: Creates an arch independent rpm from a directory source
+author: Go Team
+platform: Ruby
+moreinfo: https://github.com/jordansissel/fpm
+keywords: fpm, rpm, dpkg, package, gem, rpmbuild
+-->
+<exec command="fpm">
+  <arg>-s</arg>
+  <arg>dir</arg>
+  <arg>-t</arg>
+  <arg>rpm</arg>
+  <arg>-a</arg>
+  <arg>all</arg>
+  <arg>-n</arg>
+  <arg>package-name</arg>
+  <arg>-v</arg>
+  <arg>1.0</arg>
+  <arg>/path/to/dir</arg>
+</exec>
