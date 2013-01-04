@@ -2,7 +2,6 @@
 name: msbuild command line
 description: build system for Visual Studio
 author: Go Team
-platform: windows
 moreinfo: http://lyricsoft.blogspot.in/2012/08/we-are-often-asked-about-using.html
 keywords: msbuild, nant, build
 -->

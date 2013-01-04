@@ -2,7 +2,6 @@
 name: perl script
 description: perl script
 author: Go Team
-platform: unix, windows
 keywords: perl script
 -->
 <exec command="/usr/bin/perl">
