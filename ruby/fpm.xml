@@ -2,7 +2,6 @@
 name: fpm-create-rpm-from-dir
 description: Creates an arch independent rpm from a directory source
 author: Go Team
-platform: Ruby
 moreinfo: https://github.com/jordansissel/fpm
 keywords: fpm, rpm, dpkg, package, gem, rpmbuild
 -->

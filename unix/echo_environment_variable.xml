@@ -2,7 +2,6 @@
 name: echo
 description: Echo System environment variable (SHELL), Go environment variable (GO_PIPELINE_LABEL), Go pipeline parameter (MY_PIPELINE_PARAMETER)
 author: Go Team
-platform: unix
 keywords: echo
 -->
 <exec command="/bin/bash">

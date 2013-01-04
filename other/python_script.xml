@@ -2,7 +2,6 @@
 name: python script
 description: python script
 author: Go Team
-platform: unix, windows
 keywords: python script
 -->
 <exec command="/usr/bin/python">

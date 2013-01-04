@@ -2,7 +2,6 @@
 name: curl
 description: curl upload
 author: Go Team
-platform: unix
 keywords: curl
 -->
 <exec command="curl">
