@@ -28,25 +28,24 @@ A valid command file looks like this:
       <arg>http://targeturl</arg>
     </exec>
 
-It must be a .xml file. The name attribute is mandatory. No other attributes are valid. Zero or more
+It must be a .xml file. The command attribute is mandatory. No other attributes are valid. Zero or more
 arg child elements can be specified. No other child elements are allowed. One command file may only
 contain one command.
 
 Command Documentation
 ---------------------
 Documentation is fully optional but it aids lookup and use if present. Here is the above command with
-full documentation. Each item of documentation is key:value. No non-whitespace characters should
+full documentation. Each item of documentation is key:value. Only whitespace characters may
 precede a key. Value terminates with newline (no multi-line values). note: author refers to author of
 the command xml file, not the underlying tool :-)
 
     <!--
       name: curl
       description: curl is a command line tool for transferring data with URL syntax
-      author: Go Team
-      authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
-      platform: unix
       keywords: curl, wget, download, http-client
       moreinfo: http://curl.haxx.se/docs/manpage.html
+      author: Go Team
+      authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
     -->
     <exec command="curl">
       <arg>-u</arg>
