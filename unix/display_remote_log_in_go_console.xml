@@ -1,0 +1,10 @@
+<!--
+name: display_remote_log
+description: display a log/other file from a remote node on Go's Job console
+author: Go Team
+keywords: log
+-->
+<exec command="/bin/bash">
+    <arg>-c</arg>
+    <arg>ssh -o StrictHostKeyChecking=no remote-user@remote-server 'cat /var/log/dest/dir/x.log'</arg>
+</exec>
