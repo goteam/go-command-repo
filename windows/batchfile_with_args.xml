@@ -1,0 +1,6 @@
+<exec command="cmd">
+<arg>/c</arg>
+<arg>script.bat</arg>
+<arg>hard_coded_arg</arg>
+<arg>%env_variable%</arg>
+</exec>
