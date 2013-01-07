@@ -1,0 +1,11 @@
+<!--
+name: rsync
+description: 
+author: Go Team
+moreinfo: http://www.evbackup.com/support-commonly-used-rsync-arguments/
+keywords: rsync
+-->
+<exec command="/bin/bash">
+    <arg>-c</arg>
+    <arg>rsync -avz -e "ssh -i /path/to/ssh-private-key" /source/folder user@server:destination-folder</arg>
+</exec>

@@ -1,0 +1,12 @@
+<!--
+name: robocopy
+description: synchronize destination with source
+moreinfo: http://technet.microsoft.com/en-us/library/cc733145%28v=ws.10%29.aspx
+keywords: xcopy, robocopy, scp
+author: Go Team
+-->
+<exec command="robocopy">
+	<arg>C:\source-dir</arg>
+	<arg>C:\dest-dir</arg>
+	<arg>/MIR</arg>
+</exec>
