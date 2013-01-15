@@ -2,6 +2,7 @@
 name: echo_windows
 description: echo system environment variable (USERNAME), Go environment variable (GO_PIPELINE_LABEL), MY_PIPELINE_PARAMETER
 author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
 moreinfo: http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/echo.mspx?mfr=true
 keywords: echo
 -->

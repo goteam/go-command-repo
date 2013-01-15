@@ -2,6 +2,7 @@
 name: maven
 description: Simple maven task.
 author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
 moreinfo: http://www.thoughtworks-studios.com/content/continuous-delivery-maven-and-go-maven-central
 keywords: mvn, maven, build
 -->

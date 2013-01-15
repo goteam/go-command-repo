@@ -1,11 +1,12 @@
 <!--
 name: rsync
-description: rsync - a fast, versatile, remote (and local) file-copying tool
-author: Go Team
+description: synchronize two directories recursively preserving timestamps
 moreinfo: http://www.evbackup.com/support-commonly-used-rsync-arguments/
 keywords: rsync
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
 -->
 <exec command="/bin/bash">
     <arg>-c</arg>
-    <arg>rsync -avz -e "ssh -i /path/to/ssh-private-key" /source/folder user@server:destination-folder</arg>
+    <arg>rsync -avz /source/folder user@server:destination-folder</arg>
 </exec>

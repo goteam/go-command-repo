@@ -1,0 +1,17 @@
+<!--
+name: liquibase
+description: migrate a mysql db based on db.changelog.xml
+moreinfo: http://www.liquibase.org/quickstart
+keywords: dbmigrate, liquibase, dbdeploy
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+-->
+<exec command="liquibase">
+	<arg>--driver=com.mysql.jdbc.Driver</arg>
+	<arg>--classpath=/path/to/classes</arg>
+	<arg>--changeLogFile=com/example/db.changelog.xml</arg>
+	<arg>--url="jdbc:mysql://localhost/example"</arg>
+	<arg>--username=user</arg>
+	<arg>--password=asdf</arg>
+	<arg>migrate</arg>
+</exec>

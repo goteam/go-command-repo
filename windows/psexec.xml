@@ -1,0 +1,14 @@
+<!--
+name: psexec
+description: use psexec to change startup type of Go Agent service to automatic
+moreinfo: http://technet.microsoft.com/en-us/sysinternals/bb897553
+keywords: psexec, winrm, remote
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+-->
+<exec command="psexec">
+	<arg>\\computer1,computer2</arg>
+	<arg>-u domain\username</arg>
+	<arg>-p password</arg>
+	<arg>sc config Go-Agent start= auto</arg>
+</exec>
