@@ -36,13 +36,16 @@ Command Documentation
 ---------------------
 Documentation is fully optional but it aids lookup and use if present. Here is the above command with
 full documentation. Each item of documentation is key:value. Only whitespace characters may
-precede a key. Value terminates with newline (no multi-line values). note: author refers to author of
-the command xml file, not the underlying tool :-)
+precede a key. Value terminates with newline (no multi-line values). Each keyword may only contain
+alphanumeric characters (no spaces, underscores etc), else it will be ignored for lookup. Name may
+contain alphanumeric characters and spaces only.
+
+**note:** author refers to author of the command xml file, not the underlying tool :-)
 
     <!--
       name: curl
       description: curl is a command line tool for transferring data with URL syntax
-      keywords: curl, wget, download, http-client
+      keywords: curl, wget, download, httpclient
       moreinfo: http://curl.haxx.se/docs/manpage.html
       author: Go Team
       authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
