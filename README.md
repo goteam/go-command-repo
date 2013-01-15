@@ -36,10 +36,11 @@ Command Documentation
 ---------------------
 Documentation is fully optional but it aids lookup and use if present. Here is the above command with
 full documentation. Each item of documentation is key:value. Only whitespace characters may
-precede a key. Value terminates with newline (no multi-line values). Each keyoword may only contain
+precede a key. Value terminates with newline (no multi-line values). Each keyword may only contain
 alphanumeric characters (no spaces, underscores etc), else it will be ignored for lookup. Name may
 contain alphanumeric characters and spaces only.
-note: author refers to author of the command xml file, not the underlying tool :-)
+
+**note:** author refers to author of the command xml file, not the underlying tool :-)
 
     <!--
       name: curl
