@@ -8,5 +8,5 @@ authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-sup
 -->
 <exec command="cmd">
 	<arg>/c</arg>
-	<arg>robocopy C:\source-dir \\COMPUTER\shared-dest-dir file-to-be-transferred & rundll32</arg>
+	<arg>robocopy C:\source-dir \\COMPUTER\shared-dest-dir file-to-be-transferred &amp; rundll32</arg>
 </exec>
