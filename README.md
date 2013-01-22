@@ -28,7 +28,7 @@ A valid command file looks like this:
       <arg>http://targeturl</arg>
     </exec>
 
-It must be a valid .xml file ([escape][http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Predefined_entities_in_XML] special characters). The command attribute is mandatory. No other attributes are valid. Zero or more
+It must be a valid .xml file ([escape](http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Predefined_entities_in_XML) special characters). The command attribute is mandatory. No other attributes are valid. Zero or more
 arg child elements can be specified. No other child elements are allowed. One command file may only
 contain one command.
 
