@@ -1,10 +1,10 @@
 <!--
-name: nuget_pack
+name: nuget pack (windows)
 author: Mark Richter
-authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+authorinfo: http://lyricsoft.blogspot.in/2012/10/how-to-build-and-publish-to-nuget-using.html
 description: Create a NuGet package
-moreinfo: http://lyricsoft.blogspot.in/2012/10/how-to-build-and-publish-to-nuget-using.html
-keywords: nuget, pack, package
+moreinfo: http://docs.nuget.org/docs/reference/command-line-reference
+keywords: nuget, pack, package, windows, artifact
 -->
 <exec command="nuget">
 <arg>pack</arg>
