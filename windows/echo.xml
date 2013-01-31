@@ -1,14 +1,13 @@
 <!--
-name: echo_windows
-description: echo system environment variable (USERNAME), Go environment variable (GO_PIPELINE_LABEL), MY_PIPELINE_PARAMETER
+name: echo for windows
+description: echo system defined environment variable USERNAME, Go defined environment variable GO_PIPELINE_LABEL, and a pipeline parameter MY_PIPELINE_PARAMETER
 author: Go Team
 authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
 moreinfo: http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/echo.mspx?mfr=true
-keywords: echo
+keywords: echo, windows
 -->
 <exec command="cmd">
-  <!--/c makes cmd exit after one command.-->
   <arg>/c</arg>
   <arg>echo</arg>
-  <arg>hello %USERNAME% ${GO_PIPELINE_LABEL} #{MY_PIPELINE_PARAMETER}</arg>
+  <arg>hello %USERNAME% $GO_PIPELINE_LABEL #{MY_PIPELINE_PARAMETER}</arg>
 </exec>
