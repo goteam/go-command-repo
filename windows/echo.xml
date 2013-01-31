@@ -9,5 +9,5 @@ keywords: echo, windows
 <exec command="cmd">
   <arg>/c</arg>
   <arg>echo</arg>
-  <arg>hello %USERNAME% $GO_PIPELINE_LABEL #{MY_PIPELINE_PARAMETER}</arg>
+  <arg>hello %USERNAME% %GO_PIPELINE_LABEL% #{MY_PIPELINE_PARAMETER}</arg>
 </exec>
