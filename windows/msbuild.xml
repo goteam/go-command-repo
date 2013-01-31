@@ -1,10 +1,10 @@
 <!--
-name: msbuild command line
-description: build system for Visual Studio
+name: msbuild windows
+description: A Microsoft build tool
 author: Go Team
 authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
 moreinfo: http://lyricsoft.blogspot.in/2012/08/we-are-often-asked-about-using.html
-keywords: msbuild, nant, build
+keywords: msbuild, nant, build, windows
 -->
 <exec command="MsBuild">
   <arg>D:\path\to\project.sln</arg>
