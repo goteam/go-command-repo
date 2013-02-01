@@ -1,9 +1,10 @@
 <!--
-name: curl
-description: curl upload
+name: curl upload
+description: Upload a file to a protected URL
 author: Go Team
 authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
-keywords: curl
+keywords: curl, http, upload
+moreinfo: http://curl.haxx.se/docs/
 -->
 <exec command="curl">
 <arg>-u</arg>
