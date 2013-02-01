@@ -1,8 +1,8 @@
 <!--
-name: robocopy
-description: copy a single file to a remote computer
+name: robocopy file (windows)
+description: Robust File and Folder Copy for windows. This example copies a single file to a remote computer.
 moreinfo: http://technet.microsoft.com/en-us/library/cc733145%28v=ws.10%29.aspx
-keywords: xcopy, robocopy, scp
+keywords: xcopy, robocopy, scp, windows
 author: Go Team
 authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
 -->
