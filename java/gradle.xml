@@ -1,3 +1,11 @@
+<!--
+name: gradle
+description: Groovy DSL build tool for Java
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+moreinfo: http://www.gradle.org/docs/current/dsl/index.html
+keywords: build, groovy, ant, maven
+-->
 <exec command="gradle">
     <arg>--profile</arg>
     <arg>dist</arg>

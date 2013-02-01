@@ -1,9 +1,9 @@
 <!--
-name: maven
-description: Simple maven task.
+name: maven package
+description: Build a JAR from the current project.
 author: Go Team
 authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
-moreinfo: http://www.thoughtworks-studios.com/content/continuous-delivery-maven-and-go-maven-central
+moreinfo: http://maven.apache.org/plugins/maven-jar-plugin/jar-mojo.html
 keywords: mvn, maven, build
 -->
 <exec command="mvn">
