@@ -1,9 +1,9 @@
 <!--
-name: display_remote_log
-description: display a log/other file from a remote node on Go's Job console
+name: remote log fetch
+description: Display a log/other file from a remote node on Go's Job console
 author: Go Team
 authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
-keywords: log
+keywords: log, remote
 -->
 <exec command="/bin/bash">
     <arg>-c</arg>
