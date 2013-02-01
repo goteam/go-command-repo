@@ -1,0 +1,11 @@
+<!--
+name: maven deploy
+description: Deploy the built artifact to the remote repository.
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+moreinfo: http://maven.apache.org/plugins/maven-deploy-plugin/deploy-mojo.html
+keywords: mvn, maven, deploy
+-->
+<exec command="mvn">
+  <arg>deploy</arg>
+</exec>
