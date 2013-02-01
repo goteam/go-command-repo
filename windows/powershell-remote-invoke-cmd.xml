@@ -2,7 +2,7 @@
 name: powershell invoke remote cmd (windows)
 description: Execute a script block on a remote node running winrm
 moreinfo: http://social.technet.microsoft.com/Forums/sv/winserverpowershell/thread/a7ca5cd5-763d-4cb7-817c-4e6bb0c5a048
-keywords: powershell, winrm, remote, windows, psexec
+keywords: powershell, winrm, remote, windows, psexec, command
 author: Uttam Kini
 authorinfo: http://twitter.com/uttamkini
 -->

@@ -1,3 +1,10 @@
+<!--
+name: windows command
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+moreinfo: http://support.thoughtworks.com/entries/22873043-go-s-custom-command
+keywords: windows, command
+-->
 <exec command="cmd">
 	<arg>/c</arg>
 	<arg>set</arg>
