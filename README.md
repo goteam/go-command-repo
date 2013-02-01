@@ -3,14 +3,16 @@ A command repository for Go
 
 Introduction
 ------------
-A selection of snippets to get you started with various tools via Go's custom command. This Readme
-describes syntax of a command and the structure of the repository. For more information about Go's
-support for a command repository, please see
+A selection of snippets to help you get started with various tools via
+[Go's custom command](http://support.thoughtworks.com/entries/22873043-go-s-custom-command).
+This Readme describes syntax of a command and the structure of the repository.
+For more information about Go's support for a command repository, please see:
 
 <http://www.thoughtworks-studios.com/docs/go/current/help/command_repository.html>
 
-Caution: Please do not change/add anything under the default repo on the Go server. Refer the above
-link for setting up your own command repository.
+Caution: Please do not change/add anything under the default repo on the Go server.
+The directory will be deleted and re-created upon Go Server upgrade. Refer the above
+link for setting up your own private command repository.
 
 Version.txt
 -----------

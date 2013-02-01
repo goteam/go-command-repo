@@ -1,1 +1,4 @@
-This directory is the default command repository. It is not meant to be modified expect via git pull. Please see the Readme for instructions on setting up your own command repository for your commands.
+This directory is the default command repository.
+It will be deleted and re-created upon Go Server upgrade.
+It is not meant to be modified expect via git pull.
+Please see the Readme for instructions on setting up your own private command repository.
