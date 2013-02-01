@@ -1,3 +1,11 @@
+<!--
+name: buildr
+description: Apache Buildr is a build system for Java-based applications, including support for Scala, Groovy and a growing number of JVM languages and tools.
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+keywords: build, rake, buildr, ant
+moreinfo: http://buildr.apache.org/quick_start.html
+-->
 <exec command="buildr">
     <arg>-v</arg>
     <arg>clean</arg>
