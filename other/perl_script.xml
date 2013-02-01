@@ -1,9 +1,9 @@
 <!--
 name: perl script
-description: perl script
+description: Run a perl script. The script is expected to be in the material (version control).
 author: Go Team
 authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
-keywords: perl script
+keywords: perl, script
 -->
 <exec command="/usr/bin/perl">
 <arg>/path/to/script.pl</arg>
