@@ -1,0 +1,14 @@
+<!--
+name: mco rpc
+description: Use MCollective to start a webserver on all discovered nodes
+moreinfo: http://docs.puppetlabs.com/mcollective/reference/basic/basic_cli_usage.html
+keywords: mcollective, puppet, ansible, chef, rpc
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+-->
+<exec command="mco">
+<arg>rpc</arg>
+<arg>service</arg>
+<arg>start</arg>
+<arg>service=httpd</arg>
+</exec>

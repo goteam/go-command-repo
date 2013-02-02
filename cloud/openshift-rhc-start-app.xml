@@ -1,0 +1,14 @@
+<!--
+name: openshift rhc start app
+description: Start an app in Redhat's Openshift cloud
+moreinfo: https://access.redhat.com/knowledge/docs/en-US/OpenShift/2.0/html/User_Guide/sect-OpenShift-User_Guide-OpenShift_Command_Line_Interface-Managing_Applications.html
+keywords: rhc, redhat
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+-->
+<exec command="rhc">
+<arg>app</arg>
+<arg>start</arg>
+<arg>-a</arg>
+<arg>ApplicationName</arg>
+</exec>

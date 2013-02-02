@@ -1,0 +1,12 @@
+<!--
+name: heroku deploy
+description: Deloy an app to heroku
+moreinfo: https://devcenter.heroku.com/articles/using-the-cli
+keywords: deploy, cloud
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+-->
+<exec command="/bin/bash">
+<arg>-c</arg>
+<arg>cd /path/to/app;git push heroku master</arg>
+</exec>

@@ -1,0 +1,16 @@
+<!--
+name: IIS appcmd anonymous auth (windows)
+description: Enable anonymous authentication
+moreinfo: http://blogs.msdn.com/b/mikezh/archive/2012/04/23/iis-appcmd-quick-reference.aspx
+keywords: windows, appcmd, anonymous
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+-->
+<exec command="appcmd">
+<arg>set</arg>
+<arg>config</arg>
+<arg>"MySite/MyApp"</arg>
+<arg>-section:system.webServer/security/authentication/anonymousAuthentication</arg>
+<arg>/enabled:"True"</arg>
+<arg>/commit:apphost</arg>
+</exec>

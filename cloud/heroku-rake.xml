@@ -1,0 +1,13 @@
+<!--
+name: heroku rake
+description: Run rake tasks on heroku
+moreinfo: https://devcenter.heroku.com/articles/using-the-cli
+keywords: rake, cloud
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+-->
+<exec command="heroku">
+<arg>run</arg>
+<arg>rake</arg>
+<arg>task:name</arg>
+</exec>

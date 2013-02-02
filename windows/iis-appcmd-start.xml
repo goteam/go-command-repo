@@ -1,0 +1,13 @@
+<!--
+name: appcmd start site (windows)
+description: Start a Web Site
+moreinfo: http://technet.microsoft.com/en-us/library/cc772137%28v=ws.10%29.aspx
+keywords: windows, appcmd, start, iis
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+-->
+<exec command="appcmd">
+<arg>start</arg>
+<arg>site</arg>
+<arg>/site.name:mysite</arg>
+</exec>

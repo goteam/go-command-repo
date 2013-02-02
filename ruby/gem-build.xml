@@ -1,0 +1,14 @@
+<!--
+name: gem build
+description: Build a gem file from a specification
+moreinfo: http://docs.rubygems.org/read/chapter/10#page29
+keywords: package, bundle, bundler, publish, artifact, ruby
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+-->
+<exec command="gem">
+<arg>build</arg>
+<arg>--source</arg>
+<arg>remote-gem-source-url</arg>
+<arg>mygem.gemspec</arg>
+</exec>

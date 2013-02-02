@@ -1,0 +1,16 @@
+<!--
+name: fabric shell
+description: Fabric is a python based remote execution tool. This example runs a script on 3 nodes.
+moreinfo: http://docs.fabfile.org/en/1.4.0/index.html
+keywords: remote, cap, ssh, python
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+-->
+<exec command="fabric">
+<arg>-H</arg>	
+<arg>node1</arg>
+<arg>node2</arg>
+<arg>node3</arg>
+<arg>--</arg>
+<arg>/path/to/script.sh</arg>
+</exec>

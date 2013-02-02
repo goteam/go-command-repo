@@ -1,0 +1,12 @@
+<!--
+name: Puppet Apply
+description: ssh to a node an apply Puppet manifests locally
+moreinfo: http://docs.puppetlabs.com/man/apply.html
+keywords: puppet, chef-solo, mco
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+-->
+<exec command="/bin/bash">
+<arg>-c</arg>
+<arg>ssh node 'cd /path/to/dir;puppet apply manifest.pp'</arg>
+</exec>
