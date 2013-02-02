@@ -1,7 +1,7 @@
 <!--
 name: vagrant up
 description: ssh from go-agent to remote node and bring up a vm
-moreinfo: http://vagrantup.com/v1/docs/index.html
+moreinfo: http://docs.vagrantup.com/v1/docs/commands.html
 keywords: vagrant, virtualbox
 author: Go Team
 authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
