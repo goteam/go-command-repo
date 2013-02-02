@@ -1,0 +1,12 @@
+<!--
+name: Chef Solo (windows)
+description: Run chef in solo mode and get the log into Go console. For remote invocation, please combine this with powershell invoke command
+moreinfo: http://wiki.opscode.com/display/chef/Chef+Solo
+keywords: puppet, config, windows
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+-->
+<exec command="cmd">
+<arg>/c</arg>
+<arg>chef-solo -c config-file -j json-attribs-file -l debug</arg>
+</exec>

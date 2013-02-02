@@ -1,0 +1,27 @@
+<!--
+name: dbdeploy (java)
+description: This will examine the database to see what change scripts are applied, examine the script source directory to see what is available, then build a script consolidated_script.sql with the changes to run against the database. consolidated_script.sql may be set as build artifact for further use.
+moreinfo: http://code.google.com/p/dbdeploy/wiki/UsingTheCommandLineInterface
+keywords: db, liquibase, dbmigrate, migrate, migration
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+-->
+<exec command="java">
+<arg>-cp</arg>
+<arg>dbdeploy-cli-3.0-SNAPSHOT.jar</arg>
+<arg>com.dbdeploy.CommandLineTarget</arg>
+<arg>-U</arg>
+<arg>dbdeploy</arg>
+<arg>-P</arg>
+<arg>dbdeploy</arg>
+<arg>-D</arg>
+<arg>com.mysql.jdbc.Driver</arg>
+<arg>-u</arg>
+<arg>jdbc:mysql://localhost/dbdeploy</arg>
+<arg>-d</arg>
+<arg>mysql</arg>
+<arg>-o</arg>
+<arg>consolidated_script.sql</arg>
+<arg>-s</arg>
+<arg>dbdeploy-core/example_scripts/</arg>
+</exec>
