@@ -1,0 +1,15 @@
+<!--
+name: ansible deploy from git
+description: Deploy code etc from git to a group of webservers
+moreinfo: http://ansible.cc/docs/examples.html
+keywords: cap, capistrano, fabric
+author: Folks at Ansible
+authorinfo: http://ansible.cc
+-->
+<exec command="ansible">
+<arg>webservers</arg>
+<arg>-m</arg>
+<arg>git</arg>
+<arg>-a</arg>
+<arg>"repo=git://foo.example.org/repo.git dest=/srv/myapp version=HEAD"</arg>
+</exec>

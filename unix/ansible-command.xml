@@ -1,0 +1,15 @@
+<!--
+name: ansible remote execution
+description: Run an ad-hoc command on all servers in a group
+moreinfo: http://ansible.cc/docs/examples.html
+keywords: func, mcollective, salt, remote
+author: Folks at Ansible
+authorinfo: http://ansible.cc
+-->
+<exec command="ansible">
+<arg>server-group</arg>
+<arg>-a</arg>
+<arg>/usr/bin/ad-hoc-cmd</arg>
+<arg>-u</arg>
+<arg>username</arg>
+</exec>

@@ -1,0 +1,15 @@
+<!--
+name: ansible manage service
+description: Ensure a service is started on a group of nodes
+moreinfo: http://ansible.cc/docs/examples.html
+keywords: service, remote
+author: Folks at Ansible
+authorinfo: http://ansible.cc
+-->
+<exec command="ansible">
+<arg>webservers</arg>
+<arg>-m</arg>
+<arg>service</arg>
+<arg>-a</arg>
+<arg>"name=httpd state=started"</arg>
+</exec>
