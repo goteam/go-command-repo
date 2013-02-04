@@ -1,6 +1,7 @@
 <!--
 name: remote log fetch
 description: Display a log/other file from a remote node on Go's Job console
+moreinfo: http://www.dotkam.com/2009/03/10/run-commands-remotely-via-ssh-with-no-password/
 author: Go Team
 authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
 keywords: log, remote
