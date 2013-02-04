@@ -7,5 +7,5 @@ keywords: ssh
 -->
 <exec command="/bin/bash">
     <arg>-c</arg>
-    <arg>ssh -o StrictHostKeyChecking=no server 'cd /to/dest/dir;script.sh'</arg>
+    <arg>ssh server 'cd /to/dest/dir;script.sh'</arg>
 </exec>

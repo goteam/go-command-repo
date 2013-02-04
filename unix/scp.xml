@@ -8,5 +8,5 @@ keywords: scp, cp, copy, ftp
 -->
 <exec command="/bin/bash">
     <arg>-c</arg>
-    <arg>scp -o StrictHostKeyChecking=no source-file user@dest-server:/dest-directory</arg>
+    <arg>scp source-file user@dest-server:/dest-directory</arg>
 </exec>

@@ -7,5 +7,5 @@ keywords: log, remote
 -->
 <exec command="/bin/bash">
     <arg>-c</arg>
-    <arg>ssh -o StrictHostKeyChecking=no remote-user@remote-server 'cat /var/log/dest/dir/x.log'</arg>
+    <arg>ssh remote-user@remote-server 'cat /var/log/dest/dir/x.log'</arg>
 </exec>

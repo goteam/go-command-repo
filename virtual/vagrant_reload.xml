@@ -8,5 +8,5 @@ authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-sup
 -->
 <exec command="/bin/bash">
     <arg>-c</arg>
-    <arg>ssh -o StrictHostKeyChecking=no remote-node 'cd /to/vagrant/dir;vagrant reload vm-name'</arg>
+    <arg>ssh remote-node 'cd /to/vagrant/dir;vagrant reload vm-name'</arg>
 </exec>
