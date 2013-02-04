@@ -1,0 +1,12 @@
+<!--
+name: tar decompress and extract
+description: Decompress gzipped tar and extract files
+moreinfo: http://www.centos.org/docs/2/rhl-gsg-en-7.2/s1-zip-tar.html
+keywords: untar, tar, unzip, gunzip
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+-->
+<exec command="tar">
+<arg>xvzf</arg>
+<arg>/path/to/file.tar.gz</arg>
+</exec>

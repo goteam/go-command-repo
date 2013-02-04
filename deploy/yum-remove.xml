@@ -1,0 +1,12 @@
+<!--
+name: yum remove
+description: Remove specified package
+moreinfo: http://www.centos.org/docs/5/html/5.1/Deployment_Guide/s1-yum-useful-commands.html
+keywords: yum, rpm, package
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+-->
+<exec command="yum">
+<arg>remove</arg>
+<arg>package-name</arg>
+</exec>

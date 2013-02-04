@@ -1,0 +1,15 @@
+<!--
+name: xcopy (windows)
+description: Copy a folder including all subfolders.
+moreinfo: http://ss64.com/nt/xcopy.html
+keywords: cp, copy, robocopy
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+-->
+<exec command="xcopy">
+<arg>C:\utils\*</arg>
+<arg>D:\Backup\utils</arg>
+<arg>/y</arg>
+<arg>/s</arg>
+<arg>/i</arg>
+</exec>
