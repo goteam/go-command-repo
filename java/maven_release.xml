@@ -6,7 +6,7 @@ authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-sup
 moreinfo: http://maven.apache.org/maven-release/maven-release-plugin/perform-mojo.html
 keywords: mvn, maven, deploy, release
 -->
-k<exec command="mvn">
+<exec command="mvn">
   <arg>release:perform</arg>
   <arg>-DconnectionUrl=scm:svn:https://svn.apache.org/repos/asf/maven/plugins/tags/maven-release-plugin-2.0</arg>
 </exec>
