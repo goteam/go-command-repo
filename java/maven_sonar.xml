@@ -1,0 +1,11 @@
+<!--
+name: maven sonar
+description: Run code analysis using sonar
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+moreinfo: http://www.thoughtworks-studios.com/blog/using-go-do-sonar-analysis
+keywords: mvn, maven, sonar, analysis
+-->
+<exec command="mvn">
+  <arg>sonar:sonar</arg>
+</exec>

@@ -1,12 +1,12 @@
 <!--
 name: maven package
-description: Build a JAR from the current project.
+description: Build an artifact from the current project.
 author: Go Team
 authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
 moreinfo: http://maven.apache.org/plugins/maven-jar-plugin/jar-mojo.html
 keywords: mvn, maven, build, package, artifact
 -->
 <exec command="mvn">
-  <arg>-V</arg>
+  <arg>clean</arg>
   <arg>package</arg>
 </exec>
