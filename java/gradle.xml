@@ -1,6 +1,6 @@
 <!--
 name: gradle
-description: Groovy DSL build tool for Java
+description: Groovy DSL build tool for Java. --profile generates an HTML report file in the build/reports/profile directory.
 author: Go Team
 authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
 moreinfo: http://www.gradle.org/docs/current/dsl/index.html
@@ -8,5 +8,5 @@ keywords: build, groovy, ant, maven
 -->
 <exec command="gradle">
     <arg>--profile</arg>
-    <arg>dist</arg>
+    <arg>build</arg>
 </exec>
