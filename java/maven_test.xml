@@ -7,5 +7,6 @@ moreinfo: http://maven.apache.org/surefire/maven-surefire-plugin/test-mojo.html
 keywords: mvn, maven, build, test
 -->
 <exec command="mvn">
+  <arg>clean</arg>
   <arg>test</arg>
 </exec>
