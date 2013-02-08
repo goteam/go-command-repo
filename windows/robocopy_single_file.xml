@@ -1,6 +1,6 @@
 <!--
 name: robocopy file (windows)
-description: Robust File and Folder Copy for windows. This example copies a single file to a remote computer.
+description: Robust File and Folder Copy for windows. This example copies a single file to a remote computer. shared-dest-dir should be shared with appropriate permissions. Since robocopy returns a non-zero exit code, rundll32 sets the overall errorlevel to zero. rundll32 without any arguments is effectively a no-op.
 moreinfo: http://technet.microsoft.com/en-us/library/cc733145%28v=ws.10%29.aspx
 keywords: xcopy, robocopy, scp, windows
 author: Go Team
