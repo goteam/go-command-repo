@@ -1,12 +1,23 @@
 <!--
 name: yum install
-description: Install the latest version of a package
+description: Install the latest version of a package that is not installed previously. 
+			 Go User should either have a sudo access or admin access.
+			If go User has Admin access, sudo keyword is optional else
+			go User should have sudo access with NOPASSWD option turned on
+			-y option assumes an answer yes for all questions
+			
 moreinfo: http://www.centos.org/docs/5/html/5.1/Deployment_Guide/s1-yum-useful-commands.html
 keywords: yum, rpm, package, artifact, install
 author: Go Team
 authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
 -->
-<exec command="yum">
+<!--><exec command="yum">
 <arg>install</arg>
 <arg>package-name</arg>
+</exec>
+-->
+
+<exec command="/bin/bash">
+<arg>-c</arg>
+<arg>sudo yum install -y package_name'</arg>
 </exec>
