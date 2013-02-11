@@ -1,6 +1,6 @@
 <!--
 name: Puppet Apply
-description: ssh to a node an apply Puppet manifests locally
+description: ssh to a node and apply Puppet manifests locally
 moreinfo: http://docs.puppetlabs.com/man/apply.html
 keywords: puppet, chef-solo, mco
 author: Go Team
