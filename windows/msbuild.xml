@@ -1,6 +1,6 @@
 <!--
 name: msbuild windows
-description: A Microsoft build tool
+description: A Microsoft build tool. REBUILD performs a CLEAN operation before building the project. CFG determines the solution configuration to be built.
 author: Go Team
 authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
 moreinfo: http://lyricsoft.blogspot.in/2012/08/we-are-often-asked-about-using.html
