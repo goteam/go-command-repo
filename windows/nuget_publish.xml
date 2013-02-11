@@ -2,15 +2,15 @@
 name: nuget publish (windows)
 author: Mark Richter
 authorinfo: http://lyricsoft.blogspot.in/2012/10/how-to-build-and-publish-to-nuget-using.html
-description: Publish a NuGet package
-moreinfo: http://docs.nuget.org/docs/reference/command-line-reference
-keywords: nuget, publish, package, windows, artifact
+description: Publish a NuGet package. PACKAGE_NAME - Name of the nuget package eg. 'component.1.5.%GO_PIPELINE_COUNTER%.nupkg'. %NUGETAPIKEY% could be defined as a (secure) environment variable or provide your API-Key in plain text here.
+moreinfo: http://docs.nuget.org/docs/reference/command-line-reference#Push_Command
+keywords: nuget, publish, push, package, windows, artifact, nuget push, nuget publish, nuget package, nuget package push, nuget package publish, nuget artifact
 -->
 <exec command="cmd">
 <arg>/c</arg>
 <arg>nuget</arg>
 <arg>push</arg>
-<arg>component.1.5.%GO_PIPELINE_COUNTER%.nupkg</arg>
+<arg>PACKAGE_NAME</arg>
 <arg>%NUGETAPIKEY%</arg>
 <arg>-Timeout</arg>
 <arg>60</arg>
