@@ -1,7 +1,7 @@
 <!--
 name: heroku deploy
 description: Deloy an app to heroku
-moreinfo: https://devcenter.heroku.com/articles/using-the-cli
+moreinfo: https://devcenter.heroku.com/articles/git#creating-a-heroku-remote
 keywords: deploy, cloud
 author: Go Team
 authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
