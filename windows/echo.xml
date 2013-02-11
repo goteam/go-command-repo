@@ -1,6 +1,6 @@
 <!--
 name: echo for windows
-description: echo system defined environment variable USERNAME, Go defined environment variable GO_PIPELINE_LABEL, and a pipeline parameter MY_PIPELINE_PARAMETER
+description: echo system defined environment variable USERNAME, Go defined environment variable GO_PIPELINE_LABEL, and a pipeline parameter MY_PIPELINE_PARAMETER. Note: MY_PIPELINE_PARAMETER should be a parameter that's already been defined.
 author: Go Team
 authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
 moreinfo: http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/echo.mspx?mfr=true
