@@ -1,10 +1,11 @@
 <!--
-name: sh script
+name: shell script
 description: Runs script.sh using sh. The script is expected to be in the material (version control).
 author: Go Team
 authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
-keywords: sh, script
+keywords: sh, script, shell, bash
+moreinfo: http://en.wikipedia.org/wiki/Shell_script
 -->
 <exec command="/bin/sh">
-<arg>/path/to/script.sh</arg>
+  <arg>/path/to/script.sh</arg>
 </exec>
