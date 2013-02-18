@@ -1,8 +1,8 @@
 <!--
 name: jar create
 description: Use an existing manifest file 'mymanifest' and archive all the files in the foo/ directory into 'classes.jar'
-moreinfo: http://docs.oracle.com/javase/1.4.2/docs/tooldocs/windows/jar.html
-keywords: java, jar, tar, zip
+moreinfo: http://docs.oracle.com/javase/7/docs/technotes/tools/windows/jar.html
+keywords: java, jar, zip
 author: Go Team
 authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
 -->
