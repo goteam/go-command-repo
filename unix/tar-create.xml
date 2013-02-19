@@ -1,12 +1,12 @@
 <!--
 name: tar create
 description: Create a tar and compress it
-moreinfo: http://www.commandlinefu.com/commands/view/2217/create-a-tar.gz-in-a-single-command
+moreinfo: http://www.thegeekstuff.com/2010/04/unix-tar-command-examples/
 keywords: tar, zip, gzip, compress
 author: Go Team
 authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
 -->
 <exec command="/bin/bash">
 <arg>-c</arg>
-<arg>tar cvf - foodir | gzip > foo.tar.gz</arg>
+<arg>tar cvzf sample.tar.gz sample_dir</arg>
 </exec>
