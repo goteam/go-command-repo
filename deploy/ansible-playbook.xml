@@ -1,10 +1,10 @@
 <!--
 name: ansible execute playbook
 description: Run a playbook using a parallelism level of 10
-moreinfo: http://ansible.cc/docs/examples.html
-keywords: chef, puppet, recipe, manifest
+moreinfo: http://ansible.cc/docs/playbooks.html
+keywords: chef, puppet, recipe, manifest, playbook
 author: Folks at Ansible
-authorinfo: http://ansible.cc/docs/playbooks.html
+authorinfo: http://ansible.cc
 -->
 <exec command="ansible-playbook">
 <arg>playbook.yml</arg>
