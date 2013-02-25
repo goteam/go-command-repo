@@ -19,5 +19,5 @@ authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-sup
 
 <exec command="/bin/bash">
 <arg>-c</arg>
-<arg>sudo yum install -y package_name'</arg>
+<arg>sudo yum install -y package_name</arg>
 </exec>

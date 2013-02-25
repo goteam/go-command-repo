@@ -1,6 +1,6 @@
 <!--
 name: curl
-description: Download from a protected Url and saveToFile
+description: Download from a protected Url and saveToFile. Returns a success message if execution of curl succeeds.
 author: Go Team
 authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
 keywords: curl, http, download, wget
