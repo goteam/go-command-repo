@@ -1,6 +1,6 @@
 <!--
 name: curl upload
-description: Upload a file to a protected URL
+description: Upload a file to a protected URL. Command succeeds even if http request returns failure status like 401, 404.
 author: Go Team
 authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
 keywords: curl, http, upload
