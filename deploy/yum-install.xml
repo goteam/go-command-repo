@@ -1,6 +1,6 @@
 <!--
 name: yum install
-description: Install the latest version of a package that is not installed previously. Go User should either have a sudo/admin access. go User should have sudo access with NOPASSWD option turned on
+description: Install the latest version of a package that is not installed previously. go user should have sudo access with NOPASSWD option turned on
 moreinfo: http://www.centos.org/docs/5/html/5.1/Deployment_Guide/s1-yum-useful-commands.html
 keywords: yum, rpm, package, artifact, install
 author: Go Team

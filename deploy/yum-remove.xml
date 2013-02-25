@@ -1,7 +1,6 @@
 <!--
 name: yum remove
-description: Remove specified package. Go User should have sudo/admin access. go User should have sudo access with NOPASSWD option turned on -y option assumes an answer yes for all questions
-
+description: Remove specified package. go User should have sudo access with NOPASSWD option turned on -y option assumes an answer yes for all questions
 moreinfo: http://www.centos.org/docs/5/html/5.1/Deployment_Guide/s1-yum-useful-commands.html
 keywords: yum, rpm, package, remove
 author: Go Team
