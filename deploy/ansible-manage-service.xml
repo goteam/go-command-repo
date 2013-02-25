@@ -1,7 +1,7 @@
 <!--
 name: ansible manage service
 description: Ensure a service is started on a group of nodes
-moreinfo: http://ansible.cc/docs/examples.html
+moreinfo: http://ansible.cc/docs/examples.html#managing-services
 keywords: service, remote
 author: Folks at Ansible
 authorinfo: http://ansible.cc

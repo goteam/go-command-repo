@@ -7,7 +7,6 @@ keywords: build, rake, buildr, ant
 moreinfo: http://buildr.apache.org/quick_start.html
 -->
 <exec command="buildr">
-    <arg>-v</arg>
     <arg>clean</arg>
     <arg>build</arg>
 </exec>

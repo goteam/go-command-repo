@@ -2,13 +2,13 @@
 name: nuget pack (windows)
 author: Mark Richter
 authorinfo: http://lyricsoft.blogspot.in/2012/10/how-to-build-and-publish-to-nuget-using.html
-description: Create a NuGet package
-moreinfo: http://docs.nuget.org/docs/reference/command-line-reference
-keywords: nuget, pack, package, windows, artifact
+description: Create a NuGet package. SPEC_FILE_LOCATION is the location of the nuspec or project file to create a package eg. 'component.nuspec'. APPLICATION_VERSION is the desired version number for your package and may also contain an environment variable for eg. '1.5.%GO_PIPELINE_COUNTER%'.
+moreinfo: http://docs.nuget.org/docs/reference/command-line-reference#Pack_Command
+keywords: nuget, pack, package, windows, artifact, nuget package, nuget package create, nuget artifact
 -->
 <exec command="nuget">
 <arg>pack</arg>
-<arg>component.nuspec</arg>
+<arg>SPEC_FILE_LOCATION</arg>
 <arg>-version</arg>
-<arg>1.5.%GO_PIPELINE_COUNTER%</arg>
+<arg>APPLICATION_VERSION</arg>
 </exec>

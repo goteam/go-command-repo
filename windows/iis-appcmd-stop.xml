@@ -1,8 +1,8 @@
 <!--
 name: appcmd stop site (windows)
-description: Stop a Web Site
+description: Stop a Web site. Here 'mysite' should be replaced with the name of the web site that you want to stop.
 moreinfo: http://technet.microsoft.com/en-us/library/cc772137%28v=ws.10%29.aspx
-keywords: windows, appcmd, stop, iis
+keywords: windows, appcmd, stop, iis, iis stop, iisreset
 author: Go Team
 authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
 -->

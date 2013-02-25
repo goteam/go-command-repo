@@ -1,8 +1,8 @@
 <!--
 name: ansible remote execution
 description: Run an ad-hoc command on all servers in a group
-moreinfo: http://ansible.cc/docs/examples.html
-keywords: func, mcollective, salt, remote
+moreinfo: http://ansible.cc/docs/examples.html#parallelism-and-shell-commands
+keywords: func, mcollective, salt, remote, remote command
 author: Folks at Ansible
 authorinfo: http://ansible.cc
 -->

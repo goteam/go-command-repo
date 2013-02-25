@@ -1,8 +1,8 @@
 <!--
 name: ansible deploy from git
-description: Deploy code etc from git to a group of webservers
-moreinfo: http://ansible.cc/docs/examples.html
-keywords: cap, capistrano, fabric
+description: Deploy source code from git repo to a group of webservers
+moreinfo: http://ansible.cc/docs/examples.html#deploying-from-source-control
+keywords: cap, capistrano, fabric, git, deploy
 author: Folks at Ansible
 authorinfo: http://ansible.cc
 -->

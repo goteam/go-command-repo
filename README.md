@@ -3,7 +3,7 @@ A command repository for Go
 
 Introduction
 ------------
-A selection of snippets to help you get started with various tools via
+A selection of commands to help you get started with various tools via
 [Go's custom command](http://support.thoughtworks.com/entries/22873043-go-s-custom-command).
 This Readme describes syntax of a command and the structure of the repository.
 For more information about Go's support for a command repository, please see:
@@ -38,7 +38,8 @@ Command Documentation
 ---------------------
 Documentation is fully optional but it aids lookup and use if present. Here is the above command with
 full documentation. Each item of documentation is key:value. Only whitespace characters may
-precede a key. Value terminates with newline (no multi-line values).
+precede a key. Value terminates with newline (no multi-line values). Descriptions longer than about 250
+characters may get truncated in the admin GUI on the Go Server.
 
 **note:** author refers to author of the command xml file, not the underlying tool :-)
 

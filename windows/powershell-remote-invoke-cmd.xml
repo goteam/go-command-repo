@@ -1,12 +1,12 @@
 <!--
 name: powershell invoke remote cmd (windows)
-description: Execute a script block on a remote node running winrm
-moreinfo: http://social.technet.microsoft.com/Forums/sv/winserverpowershell/thread/a7ca5cd5-763d-4cb7-817c-4e6bb0c5a048
+description: Execute a script block on a remote node running winrm. Replace 'DOMAIN\USERID' with the appropriate values. REMOTE_NODE is a comma-separated list of machine IPs/DNS-names that the commnd needs to run on.
+moreinfo: http://blogs.technet.com/b/ashleymcglone/archive/2011/04/18/powershell-remoting-exposed-how-to-command-your-minions.aspx
 keywords: powershell, winrm, remote, windows, psexec, command
 author: Uttam Kini
 authorinfo: http://twitter.com/uttamkini
 -->
 <exec command="cmd" >
 	<arg>/c</arg>
-	<arg>powershell $pass = convertto-securestring %passwd-in-go-env-var% -asplaintext -force;  $mycred = new-object -typename System.Management.Automation.PSCredential -argumentlist "DOMAIN\userid",$pass; invoke-command -computername remote-node -ScriptBlock {echo "Remote Hello World"} -credential $mycred</arg>
+	<arg>powershell $pass = convertto-securestring %passwd-in-go-env-var% -asplaintext -force;  $mycred = new-object -typename System.Management.Automation.PSCredential -argumentlist "DOMAIN\USERID",$pass; invoke-command -computername REMOTE_NODE -ScriptBlock {echo "Remote Hello World"} -credential $mycred</arg>
 </exec>
