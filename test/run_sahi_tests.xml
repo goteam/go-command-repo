@@ -1,0 +1,21 @@
+<!--
+name: run sahi tests
+description:  This command runs sahi tests using Java TestRunner class. One of the parameters is suite file which contains list of all sahi tests that needs to be run or optionally folder path containing sahi tests or single test name can be specified here. Other parameters it takes is the start url of the AUT and browser type (ie, firefox etc) and number of threads for parallel execution.
+moreinfo: http://sahi.co.in/w/Running+multiple+tests+in+batch+mode
+keywords: testing, sahi, windows
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+-->
+<exec command="java">
+<arg>-cp</arg>
+<arg>/path/to/ant-sahi.jar</arg>
+<arg>net.sf.sahi.test.TestRunner</arg>
+<arg>-test</arg>
+<arg>test_or_suite_name_or_folder_path</arg>
+<arg>-browserType</arg>
+<arg>browser_type</arg>
+<arg>-baseURL</arg>
+<arg>start_url</arg>
+<arg>-threads</arg>
+<arg>number_of_threads</arg>
+</exec>
