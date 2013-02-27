@@ -8,7 +8,9 @@ authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-sup
 -->
 <exec command="psexec">
 	<arg>\\computer1,computer2</arg>
-	<arg>-u domain\username</arg>
-	<arg>-p password</arg>
+	<arg>-u</arg>
+	<arg>domain\username</arg>
+	<arg>-p</arg>
+	<arg>password</arg>
 	<arg>sc config Go-Agent start= auto</arg>
 </exec>
