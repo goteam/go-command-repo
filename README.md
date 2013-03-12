@@ -3,12 +3,12 @@ A command repository for Go
 
 Introduction
 ------------
-A selection of commands to help you get started with various tools via
-[Go's custom command](http://support.thoughtworks.com/entries/22873043-go-s-custom-command).
+The newly introduced command repository hosts a selection of commands to help you get started
+with various tools via [Go's custom command](http://support.thoughtworks.com/entries/22873043-go-s-custom-command).
 This Readme describes syntax of a command and the structure of the repository.
-For more information about Go's support for a command repository, please see:
+For full documentation about Go's support for this feature, please see:
 
-<http://www.thoughtworks-studios.com/docs/go/current/help/command_repository.html>
+<http://www.thoughtworks-studios.com/docs/go/13.1/help/command_repository.html>
 
 Caution: Please do not change/add anything under the default repo on the Go server.
 The directory will be deleted and re-created upon Go Server upgrade. Refer the above
