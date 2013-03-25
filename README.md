@@ -23,7 +23,7 @@ link for setting up your own private command repository.
 Version.txt
 -----------
 Go Server bundles a clone of the repository at <https://github.com/goteam/go-command-repo> by
-default. The file version.txt is meant to allow conditional overwriting of the repository during
+default. The [version.txt](https://github.com/goteam/go-command-repo/blob/master/version.txt) file is meant to allow conditional overwriting of the repository during
 server upgrades.
 
 Command Syntax
