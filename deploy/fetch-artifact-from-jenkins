@@ -1,0 +1,12 @@
+<!--
+  name: fetch artifact from jenkins
+  description: downloads an artifact from Jenkins and saves it into downloadedFile. Please refer the article in more info for details on how to populate the environment variables
+  keywords: jenkins
+  moreinfo: http://support.thoughtworks.com/entries/23704378-Drive-Go-from-Jenkins
+  author: Go Team
+  authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+-->
+<exec command="/bin/bash">
+<arg>-c</arg>
+<arg>curl -o downloadedFile ${JENKINS_URL}job/${JENKINS_JOB_NAME}/${JENKINS_JOB_NUMBER}/artifact/${JENKINS_ARTIFACT}</arg>
+</exec>
