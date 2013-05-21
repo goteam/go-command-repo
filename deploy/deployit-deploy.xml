@@ -1,0 +1,23 @@
+<!--
+  name: deployit deploy
+  description: Deploys a deployment package published to a Deployit server to an environment
+  moreinfo: http://support.xebialabs.com/entries/23850423-Using-Go-s-Deployit-custom-commands
+  keywords: deployit, deploy, xebialabs, xebia, deployment automation
+  author: XebiaLabs Inc.
+  authorinfo: http://www.xebialabs.com
+-->
+<exec command="#{DEPLOYIT_CLI_HOME}/bin/cli">
+<arg>-host</arg>
+<arg>#{DEPLOYIT_SERVER_HOST}</arg>
+<arg>-port</arg>
+<arg>#{DEPLOYIT_SERVER_PORT}</arg>
+<arg>-username</arg>
+<arg>#{DEPLOYIT_USERNAME}</arg>
+<arg>-password</arg>
+<arg>#{DEPLOYIT_PASSWORD}</arg>
+<arg>-f</arg>
+<arg>deploy-app.py</arg>
+<arg>--</arg>
+<arg>deployment_package_id</arg>
+<arg>target_environment_id</arg>
+</exec>
