@@ -8,13 +8,13 @@ with various tools via [Go's custom command](http://support.thoughtworks.com/ent
 This Readme describes syntax of a command and the structure of the repository.
 For full documentation about Go's support for this feature, please see:
 
-<http://www.thoughtworks-studios.com/docs/go/current/help/command_repository.html>
+<http://www.thoughtworks.com/products/docs/go/current/help/command_repository.html>
 
 Also check out these articles explaining how this can be used.
 
-Introductory: [And you thought Go didn't support Maven, Nuget or Chef?](http://www.thoughtworks-studios.com/blog/and-you-thought-go-did-not-support-maven-nuget-chef)
+Introductory: [And you thought Go didn't support Maven, Nuget or Chef?](http://www.thoughtworks.com/insights/agile/and-you-thought-go-didnt-support-maven-nuget-chef-etc)
 
-Advanced: [Use Go's new command repository to lookup your config scripts](http://www.thoughtworks-studios.com/blog/use-gos-new-command-repository-lookup-your-config-scripts)
+Advanced: [Use Go's new command repository to lookup your config scripts](http://www.thoughtworks.com/insights/blog/use-gos-new-command-repository-lookup-your-config-scripts)
 
 Caution: Please do not change/add anything under the default repo on the Go server.
 The directory will be deleted and re-created upon Go Server upgrade. Refer the above
