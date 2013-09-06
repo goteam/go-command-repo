@@ -1,3 +1,5 @@
+If you are reading this file on a Go Server, note that:
+
 This directory is the default command repository.
 It will be deleted and re-created upon Go Server upgrade.
 It is not meant to be modified except via git pull.

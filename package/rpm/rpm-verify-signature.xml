@@ -1,0 +1,12 @@
+<!--
+name: Verify rpm GPG signature
+description: Import public key and verify rpm package signature and md5sum
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+moreinfo: http://www.centos.org/docs/5/html/Deployment_Guide-en-US/s1-check-rpm-sig.html
+keywords: package, rpm, gpg, verify
+-->
+<exec command="/bin/bash">
+  <arg>-c</arg>
+  <arg>sudo rpm --import /path/or/url/to/public-key && (rpm -K /path/to/rpm-file | grep "md5 gpg OK")</arg>
+</exec>

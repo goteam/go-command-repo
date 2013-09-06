@@ -1,0 +1,12 @@
+<!--
+name: Publish rpm package to yum repo
+description: Publish (copy over) an rpm package to a yum repository. Assumes passwordless key based authentication.
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+moreinfo: http://www.techrepublic.com/blog/linux-and-open-source/create-your-own-yum-repository/
+keywords: package, publish, yum, rpm
+-->
+<exec command="/bin/bash">
+    <arg>-c</arg>
+    <arg>scp /path/to/rpm-file user@yum-server:/path/to/repo</arg>
+</exec>

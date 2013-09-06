@@ -1,0 +1,12 @@
+<!--
+name: rpmbuild
+description: Create an rpm package against a spec file
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+moreinfo: http://www.rpm.org/max-rpm-snapshot/rpmbuild.8.html
+keywords: package, rpmbuild, rpm, fpm, create, build
+-->
+<exec command="rpmbuild">
+  <arg>-bb</arg>
+  <arg>/path/to/SPECFILE</arg>
+</exec>

@@ -1,0 +1,12 @@
+<!--
+name: Update yum repo metadata
+description: Update yum repository metadata after publishing an rpm
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+moreinfo: http://linux.die.net/man/8/createrepo
+keywords: package, artifact, rpm, yum, createrepo
+-->
+<exec command="createrepo">
+  <arg>--update</arg>
+  <arg>/path/to/repo</arg>
+</exec>

@@ -1,0 +1,12 @@
+<!--
+name: Install/Upgrade rpm on remote node
+description: Install/Upgrade on remote node a pre-downloaded independent rpm that is polled for by the bundled yum plugin (Go version 13.3). The command shown uses ORA as repository name and GCC as package name. Please replace as appropriate. Target node user should have passwordless sudo privilege.
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+moreinfo: http://www.thoughtworks.com/products/docs/go/current/help/yum_repository_poller.html#install
+keywords: yum, install, rpm, upgrade, package
+-->
+<exec command="/bin/bash">
+  <arg>-c</arg>
+  <arg>ssh user@target-node "sudo rpm -U /path/to/$GO_PACKAGE_ORA_GCC_LABEL.rpm"</arg>
+</exec>
