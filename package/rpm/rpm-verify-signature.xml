@@ -8,5 +8,5 @@ keywords: package, rpm, gpg, verify
 -->
 <exec command="/bin/bash">
   <arg>-c</arg>
-  <arg>sudo rpm --import /path/or/url/to/public-key && (rpm -K /path/to/rpm-file | grep "md5 gpg OK")</arg>
+  <arg>sudo rpm --import /path/or/url/to/public-key &amp;&amp; (rpm -K /path/to/rpm-file | grep "md5 gpg OK")</arg>
 </exec>
