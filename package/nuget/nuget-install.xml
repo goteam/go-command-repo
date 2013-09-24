@@ -1,0 +1,12 @@
+<!--
+name: Install NuGet package
+description: Install a NuGet package configured as package material using the NuGet plugin. It is assumed that the repository is already registered on the agent via 'nuget sources add' or other mechanism. Please replace REPONAME and PKGNAME as appropriate.
+author: Go Team
+authorinfo: http://support.thoughtworks.com/categories/20002778-go-community-support
+moreinfo: https://github.com/ThoughtWorksInc/go-nuget-poller-plugin/
+keywords: package, artifact, nuget, install
+-->
+<exec command="cmd">
+  <arg>/c</arg>
+  <arg>nuget install %GO_PACKAGE_REPONAME_PKGNAME_PACKAGE_ID% -Version %GO_PACKAGE_REPONAME_PKGNAME_VERSION% -Source RepoNameOnAgent</arg>
+</exec>
